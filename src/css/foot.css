@@ -1,0 +1,16 @@
+.Footer{
+    background-color: rgb(46, 68, 41);
+    color:white;
+
+}
+a{
+    color:aqua;
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+.Last-footer{
+    background-color: black;
+    color: white;
+}

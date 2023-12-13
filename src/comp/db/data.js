@@ -1,0 +1,171 @@
+import { AiFillStar } from "react-icons/ai";
+
+const data = [
+  {
+    img: "https://unsplash.com/photos/woman-in-black-shirt-and-blue-denim-shorts-surfing-on-water-waves-during-daytime-o7VVifOs-ac",
+    title: "Surf",
+    star: <AiFillStar className="rating-star" />,
+    reviews: "(123 reviews)",
+    newPrice: "250 MAD",
+    category: "sea",
+  },
+  {
+    img: "https://unsplash.com/photos/man-in-blue-and-black-jacket-riding-on-blue-and-white-parachute-fy7xmvbdXTY",
+    title: "parachute",
+    star: <AiFillStar className="rating-star" />,
+    reviews: "(123 reviews)",
+    newPrice: "600 MAD",
+    category: "sky",
+  },
+
+  {
+    img: "https://unsplash.com/photos/woman-in-gray-sports-bra-and-black-shorts-climbing-on-brown-rock-mountain-during-daytime-f7MjbzHOxNU",
+    title: "mountain ",
+    star: <AiFillStar className="rating-star" />,
+    reviews: "(123 reviews)",
+    newPrice: "200 MAD",
+    category: "mountain ",
+  },
+  {
+    img: "https://unsplash.com/photos/man-in-black-t-shirt-and-blue-denim-jeans-jumping-on-mid-air-during-daytime-qYZCU9_ITDY",
+    title: "free jump",
+    star: <AiFillStar className="rating-star" />,
+    reviews: "(123 reviews)",
+    newPrice: "200 M    AD",
+    category: "sky",
+  },
+  {
+    img: "https://media.istockphoto.com/id/1358858500/photo/alpine-skiing-above-lake-tahoe-on-the-nevada-california-border-usa.jpg?s=2048x2048&w=is&k=20&c=JePT1suYRv6L6C2bwBt2jnKm_MjSGWYOOcAxozz8nDI=",
+    title: "skiing",
+    star: <AiFillStar className="rating-star" />,
+    reviews: "(123 reviews)",
+    newPrice: "750 MAD",
+    category: "mountain",
+  },
+  {
+    img: "https://unsplash.com/photos/red-and-black-sailboat-on-sea-during-daytime-PYFxe3c8XYE",
+    title: "boat",
+    star: <AiFillStar className="rating-star" />,
+    reviews: "(123 reviews)",
+    newPrice: "280 MAD",
+    category: "sea",
+  },
+  {
+    img: "https://images.unsplash.com/photo-1605762566242-bd1c73c885b0?q=80&w=2042&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    title: "mountain",
+    star: <AiFillStar className="rating-star" />,
+    reviews: "(123 reviews)",
+    newPrice: "1050 MAD",
+    category: "mountain",
+  },
+  {
+    img: "https://media.istockphoto.com/id/1351289644/photo/buggy-car-on-the-sand-dunes.jpg?s=2048x2048&w=is&k=20&c=eVQWtmeJuJyqBhKg-wmw643eRpUIAiFFY5R4OdF0XP0=",
+    title: "Buggy",
+    star: <AiFillStar className="rating-star" />,
+    reviews: "(123 reviews)",
+    prevPrice: "$140,00",
+    newPrice: "1800 MAD",
+    category: "desert ",
+  },
+  {
+    img: "https://images.unsplash.com/photo-1564557825664-18dc7889b564?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    title: "balloon that flew",
+    star: <AiFillStar className="rating-star" />,
+    reviews: "(123 reviews)",
+    prevPrice: "$140,00",
+    newPrice: "2500 MAD",
+    category: "sky",
+  },
+
+  {
+    img: "https://images.unsplash.com/photo-1563499779966-6e4a52eb1ee4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    title: "Nike Zoom Freak",
+    star: <AiFillStar className="rating-star" />,
+    reviews: "(123 reviews)",
+    newPrice: "700 MAD",
+    category: "sea",
+  },
+
+  {
+    img: "https://images.unsplash.com/photo-1598992269462-4e9a96cb539e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    title: "Nike Men's Sneaker",
+    star: <AiFillStar className="rating-star" />,
+    reviews: "(123 reviews)",
+    newPrice: "460 MAD",
+    category: "mountain",
+  },
+
+  {
+    img: "https://media.istockphoto.com/id/516449022/photo/lady-with-kayak.jpg?s=2048x2048&w=is&k=20&c=qB3W5QPBAij3pW9OdYxDomXQwPbUOzkM7o8FjOp7Vyc=",
+    title: "Kayak",
+    star: <AiFillStar className="rating-star" />,
+    reviews: "(123 reviews)",
+    newPrice: "1500 MAD",
+    category: "sea",
+  },
+  {
+    img: "https://cdn.pixabay.com/photo/2017/04/27/07/26/rock-climbing-2264698_1280.jpg",
+    title: "mountain",
+    star: <AiFillStar className="rating-star" />,
+    reviews: "(123 reviews)",
+    newPrice: "2050 MAD",
+    category: "mountain",
+  },
+  {
+    img: "https://cdn.pixabay.com/photo/2018/10/07/00/46/surfer-3729052_1280.jpg",
+    title: "surf",
+    star: <AiFillStar className="rating-star" />,
+    reviews: "(123 reviews)",
+    newPrice: "1250 MAD",
+    category: "sea",
+  },
+  {
+    img: "https://cdn.pixabay.com/photo/2016/07/05/18/35/aircraft-1499171_1280.jpg",
+    title: "plane",
+    star: <AiFillStar className="rating-star" />,
+    reviews: "(123 reviews)",
+    prevPrice: "$140,00",
+    newPrice: "7500 MAD",
+    category: "sky",
+  },
+  {
+    img: "https://media.istockphoto.com/id/1145064928/photo/tourist-riding-camel-in-desert.jpg?s=2048x2048&w=is&k=20&c=2XCDTAI81Pjun3kAweUuyNYgTkzcsgJxR0eylqfPsok=",
+    title: "desert ",
+    star: <AiFillStar className="rating-star" />,
+    reviews: "(123 reviews)",
+    newPrice: "350 MAD",
+    category: "desert ",
+  },
+
+
+  {
+    img: "https://media.istockphoto.com/id/1313410807/photo/happy-friends-driving-quads-in-the-desert-at-sunset.jpg?s=2048x2048&w=is&k=20&c=2x7jjLPiJ__Hu9LGzYUH-lz9T2WoP0-a-CJZr9eQcN8=",
+    title: "quads",
+    star: <AiFillStar className="rating-star" />,
+    reviews: "(123 reviews)",
+    newPrice: "950 MAD",
+    category: "desert",
+  },
+  {
+    img: "https://media.istockphoto.com/id/877023478/photo/extreme-skiing-in-st-anton-austria.jpg?s=2048x2048&w=is&k=20&c=cvABOKBS_5I9FzUn4SW8_B2xgJRff6ktgV7xWtm7HBk=",
+    title: "skiing",
+    star: <AiFillStar className="rating-star" />,
+    reviews: "(123 reviews)",
+    newPrice: "1080 MAD",
+    category: "mountain",
+  },
+ 
+  {
+    img: "https://m.media-amazon.com/images/I/61N4GyWcHPL._AC_UY575_.jpg",
+    title: "Classic Bandana Sneakers",
+    star: <AiFillStar className="rating-star" />,
+    reviews: "(123 reviews)",
+    prevPrice: "$140,00",
+    newPrice: "50",
+    company: "Nike",
+    color: "black",
+    category: "sandals",
+  }
+];
+
+export default data;

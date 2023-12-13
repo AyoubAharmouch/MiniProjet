@@ -1,0 +1,11 @@
+.popular{
+    display: flex;
+    justify-content: center;
+}
+.pc {
+    box-shadow: 10px 10px 5px 0 blueviolet;
+}
+.opi{
+    display: flex;
+    justify-content: center;
+}

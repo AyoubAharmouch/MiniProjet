@@ -1,0 +1,29 @@
+.msg{
+    /* position: fixed; */
+    background-color: #fff;
+    /* position: sticky; */
+    /* margin-top: 50%; */
+}
+.ff{
+    /* position: sticky; */
+    /* margin-top: 50%; */
+}
+.aa{
+    margin: 0px;
+    padding: 0px;
+}
+.fback{
+    text-align: center;
+}
+.cmnt{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    text-align: center;
+    margin-left: 25%;
+    /* margin-right: 40%; */
+}
+.profile{
+    width: 30px;
+    height:30px;
+}

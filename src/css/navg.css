@@ -1,0 +1,38 @@
+.con{
+  
+  display: flex;
+  justify-content: space-between;
+  /* height: 70px; */
+  background-color: rgba(165, 195, 181, 0.633);
+  box-shadow: 0 5px 15px 0 rgba(0,0,0,0.5);
+  border-radius: 13px;
+  /* padding: 0 30px; */
+  width:95%;
+  height: 80px;
+  position: fixed;
+  top: 20px;
+  left:50%;
+  transform: translate(-50%);
+  z-index: 9999;
+  
+}
+.nev{
+  background-color: rgba(255, 0, 0, 0);
+
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+.cont {
+  width: 0px;
+  height:auto;
+  background-color: rgba(255, 0, 0, 0);
+  position: absolute;
+  top: 0;
+  padding: 0;
+  margin: 0;
+}
+
+
+
