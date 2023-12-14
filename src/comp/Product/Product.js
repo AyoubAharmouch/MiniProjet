@@ -16,6 +16,7 @@ export default function Product() {
     const handleshow = (value)=>{
         setshowCart(value)
     }
+
   return (
     <div>
       <Hero
