@@ -11,8 +11,7 @@ export default function Home() {
     
   return (
     <>
-    <div className='iim mt-5 pt-5' style={{"paddingTop":"1555px"}}>
-      <Nav />
+    <div className='iim ' >
       <Hero
         cName="hero"
         heroImg="https://images.unsplash.com/photo-1450500392544-c2cb0fd6e3b8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"

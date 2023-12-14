@@ -1,0 +1,29 @@
+import React from 'react'
+import Card from 'react-bootstrap/Card';
+import Button from 'react-bootstrap/Button';
+export default function ProductList({product , addToCart}) {
+  return (
+    <div className='d-flex row ms-3  '>
+        {
+            product.map((produit)=>{
+                return(
+                    <Card style={{ width: '18rem' }} className='col-lg-4 col-md-6 col-sm-11'> 
+                        <Card.Img variant="top" src={produit.img} />
+                        <Card.Body>
+                            <Card.Title>{produit.name}</Card.Title>
+                            <Card.Text>
+                            {produit.company} <br />
+                            {produit.price}$
+                            </Card.Text>
+                            <Button variant="success" onClick={( ) => addToCart(produit) }>
+                                Add to cart
+                            </Button>
+                        </Card.Body>
+    </Card>
+                )
+
+            })
+        }
+    </div>
+  )
+}

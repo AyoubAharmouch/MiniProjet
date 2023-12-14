@@ -28,8 +28,8 @@ export default function NavG(props) {
                 <Nav.Link className="lin" as={Link} to="/Avis">
                 Avis
                 </Nav.Link>
-                <Nav.Link className="lin" as={Link} to="/Favorite">
-                <i class="fa-solid fa-heart"></i><sup>{props.count}</sup> Favorite
+                <Nav.Link className="lin" as={Link} to="/Product">
+                <i class="fa-solid fa-heart"></i><sup>{props.count}</sup> Product
                 </Nav.Link>
                 
             </Nav>
