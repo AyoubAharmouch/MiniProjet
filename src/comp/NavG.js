@@ -29,7 +29,7 @@ export default function NavG(props) {
                 Avis
                 </Nav.Link>
                 <Nav.Link className="lin" as={Link} to="/Product">
-                <i class="fa-solid fa-heart"></i><sup>{props.count}</sup> Product
+                 Product
                 </Nav.Link>
                 
             </Nav>
